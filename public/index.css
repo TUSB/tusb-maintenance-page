@@ -134,3 +134,55 @@ button:hover {
 /*	width: 100%;*/
 /*	background: url(https://jackrugile.com/images/misc/skyline-texture.png);*/
 /*}*/
+
+/* ニュースセクション */
+.news-section {
+	margin-top: 2rem;
+	border-top: 2px solid #f6821f;
+	padding-top: 1rem;
+}
+
+.news-item {
+	display: flex;
+	align-items: start;
+	margin-bottom: 1.5rem;
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 1rem;
+}
+
+.news-item:last-child {
+	border-bottom: none;
+}
+
+.news-date {
+	flex: 0 0 80px;
+	font-size: 0.9rem;
+	font-weight: bold;
+	color: #f6821f;
+}
+
+.news-content {
+	flex: 1;
+}
+
+.news-title {
+	font-size: 1.1rem;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
+
+.news-desc {
+	font-size: 0.9rem;
+}
+
+.news-link {
+	display: inline-block;
+	margin-top: 0.5rem;
+	color: #f6821f;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.news-link:hover {
+	color: #d86300;
+}
