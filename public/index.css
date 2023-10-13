@@ -103,6 +103,20 @@ button:hover {
 	background-color: #d86300;
 }
 
+
+.social-links {
+	list-style-type: none;
+	padding: 0;
+}
+
+.social-links li {
+	margin-bottom: 10px;
+}
+
+.social-links i {
+	margin-right: 10px;
+}
+
 /*canvas {*/
 /*	background:*/
 /*		linear-gradient(*/
