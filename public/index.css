@@ -190,3 +190,24 @@ button:hover {
 .news-link:hover {
 	color: #d86300;
 }
+
+/* フッター */
+.site-footer {
+	width: 100%;
+	padding: 1rem;
+	text-align: center;
+	background-color: #003682;
+	color: #ffffff;
+	font-size: 0.9rem;
+	border-top: 1px solid #f8fbfb;
+	position: absolute; /* 画面の一番下に配置する場合 */
+	bottom: 0;
+}
+
+/* モバイル向けのメディアクエリ */
+@media (max-width: 768px) {
+	.site-footer {
+		font-size: 0.8rem;
+		padding: 0.5rem;
+	}
+}
