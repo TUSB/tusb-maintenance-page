@@ -155,10 +155,15 @@ button:hover {
 }
 
 .news-date {
-	flex: 0 0 80px;
+	flex: 0 0 100px; /* 幅を少し広げて時間を収容 */
 	font-size: 0.9rem;
 	font-weight: bold;
 	color: #f6821f;
+}
+
+.news-time {
+	display: block;
+	font-size: 0.8rem;
 }
 
 .news-content {
