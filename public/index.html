@@ -13,18 +13,23 @@
 	<link rel="stylesheet" href="/css/fontawesome.css">
 	<script type="module">
 		import particlesJs from 'https://cdn.jsdelivr.net/npm/particles.js@2.0.0/+esm'
+		particlesJs.load('particles-js', 'particles.json', function() {
+			console.log('callback - particles.js config loaded');
+		});
 	</script>
 </head>
 <body >
-<div></div>
+<div id="particles-js"></div>
 <main>
 	<h1>メンテナンス中</h1>
-	<h1>復旧時期: 2023/10/13 12:00(JST) ～ 未定</h1>
+	<b>復旧時期: 2023/10/13 12:00(JST) ～ 未定</b>
 	<blockquote>
-		<p>TUSB公式サイト「skyblock.jp」は本日、外部からの攻撃を受けアクセスできなくなっております。</p>
+		<p>TUSB公式サイト「<a href="https://skyblock.jp/">skyblock.jp</a>」は本日、外部からの攻撃を受けアクセスできなくなっております。</p>
 		<p>現在、対策を進めております。ご理解のほど、よろしくお願い申し上げます。</p>
 	</blockquote>
 	<i class="fa-brands fa-twitter"></i> Twitter:
+	<i class="fa-brands fa-discord"></i> Discord:
+	<i class="fa-brands fa-youtube"></i> Youtube:
 </main>
 
 </body>
