@@ -128,7 +128,7 @@ canvas {
 	display: block;
 }
 
-div {
+div#particles-js {
 	height: 100%;
 	left: 0;
 	position: fixed;
