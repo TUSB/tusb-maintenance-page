@@ -16,12 +16,12 @@ html {
 }
 
 body {
+	margin: 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: #003682;
-	background-color: #f8fbfb;
+	background-color: #787878;
 	font-family: system-ui,-apple-system,BlinkMacSystemFont,Inter,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
@@ -209,10 +209,3 @@ div#particles-js {
 	bottom: 0;
 }
 
-/* モバイル向けのメディアクエリ */
-@media (max-width: 768px) {
-	.site-footer {
-		font-size: 0.8rem;
-		padding: 0.5rem;
-	}
-}
