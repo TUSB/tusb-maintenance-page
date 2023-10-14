@@ -85,7 +85,6 @@ div#particles-js {
 }
 
 .news-date-group {
-	margin-bottom: 2rem;
 	border-bottom: 2px solid #f6821f;
 	padding-bottom: 1rem;
 }
@@ -125,8 +124,6 @@ div#particles-js {
 
 .news-link {
 	display: inline-block;
-	margin-top: 0.5rem;
-	color: #f6821f;
 	text-decoration: none;
 	transition: color 0.3s ease;
 }
