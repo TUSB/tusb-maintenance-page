@@ -205,7 +205,7 @@ div#particles-js {
 	color: #ffffff;
 	font-size: 0.9rem;
 	border-top: 1px solid #f8fbfb;
-	position: absolute; /* 画面の一番下に配置する場合 */
+	position: static; /* 画面の一番下に配置する場合 */
 	bottom: 0;
 }
 
