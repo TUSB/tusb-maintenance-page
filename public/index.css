@@ -108,16 +108,17 @@ button:hover {
 
 
 .social-links {
-	list-style-type: none;
-	padding: 0;
+	display: flex;
+	justify-content: space-between;
 }
 
 .social-links li {
-	margin-bottom: 10px;
+	margin-bottom: 0;
+	margin-right: 10px;
 }
 
-.social-links i {
-	margin-right: 10px;
+.social-links li:last-child {
+	margin-right: 0;
 }
 
 canvas {
